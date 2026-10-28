@@ -144,10 +144,43 @@
           </div>
         </div>
         <div class="footer-diseños">
-          <a href="#" class="btn2 i3">
+          <a href="#contacto" class="btn2 i3">
             Quiero mi tatuaje! <span>↓</span>
           </a>
         </div>
+      </div>
+    </section>
+    <section id="contacto">
+      <div class="content-forms">
+        <div class="header-forms">
+          <h2 class="title-forms">¿Estas listo para tu proximo tatuaje?</h2>
+          <p> Completa el formulario y nos pondremos en contacto.</p>
+        </div>
+        <form action="#" method="post">
+          <div class="formulario">
+            <label for="nombre" class="form-label">Ingrese su Nombre</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese su nombre" required>
+          </div>
+          <div class="formulario">
+            <label for="correo" class="form-label">Correo Electronico</label>
+            <input type="email" class="form-control" id="correo" name="correo" placeholder="Ingrese su Correo">
+          </div>
+          <div class="formulario">
+            <label for="servicios" class="form-label">Servicio de Interes</label>
+            <select class="form-select" id="servicio" name="servicio" required>
+              <option>Selecciona un estilo de tatuaje</option>
+              <option value="1">Tradicional</option>
+              <option value="2">Hiperrealista</option>
+              <option value="3">A color (si elegis esta opción especifica abajo)</option>
+            </select>
+          </div>
+          <div class="formulario">
+            <label for="mensaje" class="form-label">Medidas</label>
+            <textarea name="textarea" id="textarea" class="form-control" rows="4"
+              placeholder="Ej: 2cm de alto y 4cm de ancho" required></textarea>
+          </div>
+          <button type="submit" class="btn btn3 w-100"> Enviar consulta</button>
+        </form>
       </div>
     </section>
   </main>
